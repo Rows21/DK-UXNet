@@ -25,8 +25,7 @@ We propose **DKUX-Net**, a transformer-based network for Medical Image Segmentat
  Please look into the [INSTALL.md](INSTALL.md) for creating conda environment and package installation procedures.
 
  ## Training Tutorial
- - [x] FeTA 2021, FLARE 2021 Training Code [TRAINING.md](TRAINING.md)
- - [x] AMOS 2022 Finetuning Code [TRAINING.md](TRAINING.md)
+ - [x] LA 2018
  
  (Feel free to post suggestions in issues of recommending latest proposed transformer network for comparison. Currently, the network folder is to put the current SOTA transformer. We can further add the recommended network in it for training.)
  
