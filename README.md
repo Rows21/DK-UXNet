@@ -10,12 +10,12 @@ Vanderbilt University \
 ---
 
 <p align="center">
-<img src="screenshots/Figure_1.png" width=100% height=40% 
+<img src="/screenshots/Figure_1.jpg" width=100% height=40% 
 class="center">
 </p>
 
 <p align="center">
-<img src="screenshots/Figure_2.png" width=100% height=40% 
+<img src="/screenshots/Figure_2.png" width=100% height=40% 
 class="center">
 </p>
 
@@ -33,16 +33,7 @@ We propose **3D UX-Net**, a pure volumetric convolutional network to adapt hiera
  <!-- ✅ ⬜️  -->
  
  ## Results 
- ### FeTA 2021 Trained Models (5-folds cross-validation)
- | Methods | resolution | #params | FLOPs | Mean Dice | Model
-|:---:|:---:|:---:|:---:| :---:|:---:|
-| TransBTS | 96x96x96 | 31.6M | 110.4G | 0.868 | |
-| UNETR | 96x96x96 | 92.8M | 82.6G | 0.860 | |
-| nnFormer | 96x96x96 | 149.3M | 240.2G | 0.863 | |
-| SwinUNETR | 96x96x96 | 62.2M | 328.4G | 0.867 | |
-| 3D UX-Net | 96x96x96 | 53.0M | 639.4G | 0.874 | [Weights](https://drive.google.com/file/d/1AqJMIM2w8OGGiN1FonmZqNoRHd2x5fTL/view?usp=share_link)
-
-### FLARE 2021 Trained Models (5-folds cross-validation)
+### LA 2018 Trained Models
 | Methods | resolution | #params | FLOPs | Mean Dice | Model 
 |:---:|:---:|:---:|:---:| :---:|:---:|
 | TransBTS | 96x96x96 | 31.6M | 110.4G | 0.902 | | 
@@ -50,17 +41,6 @@ We propose **3D UX-Net**, a pure volumetric convolutional network to adapt hiera
 | nnFormer | 96x96x96 | 149.3M | 240.2G | 0.906 | |
 | SwinUNETR | 96x96x96 | 62.2M | 328.4G | 0.929 | |
 | 3D UX-Net | 96x96x96 | 53.0M | 639.4G | 0.936 (latest)| [Weights](https://drive.google.com/file/d/1APxKmq3MuueY4KtuKAZG3vs3vPLetLaK/view?usp=share_link)
-
-
-
- ### AMOS 2022 Fine-tuned Models 
- | Methods | resolution | #params | FLOPs | Mean Dice (AMOS2022) | Model 
-|:---:|:---:|:---:|:---:| :---:|:---:|
-| TransBTS | 96x96x96 | 31.6M | 110.4G | 0.792 |
-| UNETR | 96x96x96 | 92.8M | 82.6G | 0.762 | 
-| nnFormer | 96x96x96 | 149.3M | 240.2G | 0.790 | 
-| SwinUNETR | 96x96x96 | 62.2M | 328.4G | 0.880 | 
-| 3D UX-Net | 96x96x96 | 53.0M | 639.4G | 0.900 (kernel=7) | [Weights](https://drive.google.com/file/d/1G8uhjKh8392UFtGsMeolO__Lmz3GLAiG/view?usp=share_link)
 
 <!-- ✅ ⬜️  -->
 ## Training
@@ -84,12 +64,7 @@ This project is released under the MIT license. Please see the [LICENSE](LICENSE
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
-@article{lee20223d,
-  title={3D UX-Net: A Large Kernel Volumetric ConvNet Modernizing Hierarchical Transformer for Medical Image Segmentation},
-  author={Lee, Ho Hin and Bao, Shunxing and Huo, Yuankai and Landman, Bennett A},
-  journal={arXiv preprint arXiv:2209.15076},
-  year={2022}
-}
+
 ```
 
  
