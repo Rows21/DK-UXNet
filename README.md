@@ -1,11 +1,11 @@
-### [3D UX-Net: A Large Kernel Volumetric ConvNet Modernizing Hierarchical Transformer for Medical Image Segmentation](https://arxiv.org/abs/2209.15076)
+### [Semi-supervised Medical Image Segmentation via Query Distribution Consistency](https://arxiv.org/abs/2311.12364)
 
-Official Pytorch implementation of 3D UX-Net, from the following paper:
+Official Pytorch implementation of DKUX-Net, from the following paper:
 
-[3D UX-Net: A Large Kernel Volumetric ConvNet Modernizing Hierarchical Transformer for Medical Image Segmentation](https://arxiv.org/abs/2209.15076). ICLR 2023 (Accepted, Poster) \
-Ho Hin Lee, Shunxing Bao, [Yuankai Huo](https://hrlblab.github.io/), [Bennet A. Landman](https://my.vanderbilt.edu/masi/people/bennett-landman-ph-d/) \
-Vanderbilt University \
-[[`arXiv`](https://arxiv.org/abs/2209.15076)]
+[Semi-supervised Medical Image Segmentation via Query Distribution Consistency](https://arxiv.org/abs/2311.12364). ISBI 2024 (Accepted) \
+Rong Wu, Dehua Li, and Cong Zhang\
+DecisionLinnc Dev Group \
+[[`arXiv`](https://arxiv.org/abs/2311.12364)]
 
 ---
 
@@ -19,7 +19,7 @@ class="center">
 class="center">
 </p>
 
-We propose **3D UX-Net**, a pure volumetric convolutional network to adapt hierarchical transformers behaviour (e.g. Swin Transformer) for Medical Image Segmentation with less model parameters.
+We propose **DKUX-Net**, a transformer-based network for Medical Image Segmentation with less model parameters.
 
  ## Installation
  Please look into the [INSTALL.md](INSTALL.md) for creating conda environment and package installation procedures.
@@ -40,7 +40,7 @@ We propose **3D UX-Net**, a pure volumetric convolutional network to adapt hiera
 | UNETR | 96x96x96 | 92.8M | 82.6G | 0.886 | |
 | nnFormer | 96x96x96 | 149.3M | 240.2G | 0.906 | |
 | SwinUNETR | 96x96x96 | 62.2M | 328.4G | 0.929 | |
-| 3D UX-Net | 96x96x96 | 53.0M | 639.4G | 0.936 (latest)| [Weights](https://drive.google.com/file/d/1APxKmq3MuueY4KtuKAZG3vs3vPLetLaK/view?usp=share_link)
+| 3D UX-Net | 96x96x96 | 53.0M | 639.4G | 0.936 (latest)| [Weights]()
 
 <!-- ✅ ⬜️  -->
 ## Training
