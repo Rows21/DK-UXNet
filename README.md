@@ -33,26 +33,12 @@ We propose **DKUX-Net**, a transformer-based network for Medical Image Segmentat
  
  ## Results 
 ### LA 2018 Trained Models
-| Methods | resolution | #params | FLOPs | Mean Dice | Model 
-|:---:|:---:|:---:|:---:| :---:|:---:|
-| TransBTS | 96x96x96 | 31.6M | 110.4G | 0.902 | | 
-| UNETR | 96x96x96 | 92.8M | 82.6G | 0.886 | |
-| nnFormer | 96x96x96 | 149.3M | 240.2G | 0.906 | |
-| SwinUNETR | 96x96x96 | 62.2M | 328.4G | 0.929 | |
-| 3D UX-Net | 96x96x96 | 53.0M | 639.4G | 0.936 (latest)| [Weights]()
+Coming Soon!
 
 <!-- ✅ ⬜️  -->
 ## Training
 Training and fine-tuning instructions are in [TRAINING.md](TRAINING.md). Pretrained model weights will be uploaded for public usage later on.
 
-<!-- ✅ ⬜️  -->
-## Evaluation
-Efficient evaulation can be performed for the above three public datasets as follows:
-```
-python test_seg.py --root path_to_image_folder --output path_to_output \
---dataset flare --network 3DUXNET --trained_weights path_to_trained_weights \
---mode test --sw_batch_size 4 --overlap 0.7 --gpu 0 --cache_rate 0.2 \
-```
 
 ## Acknowledgement
 This repository is built using the [timm](https://github.com/rwightman/pytorch-image-models) library.
