@@ -49,7 +49,14 @@ This project is released under the MIT license. Please see the [LICENSE](LICENSE
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
-
+@inproceedings{wu2024semi,
+  title={Semi-Supervised Medical Image Segmentation Via Query Distribution Consistency},
+  author={Wu, Rong and Li, Dehua and Zhang, Cong},
+  booktitle={2024 IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={1--5},
+  year={2024},
+  organization={IEEE}
+}
 ```
 
  
