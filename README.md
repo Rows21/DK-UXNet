@@ -2,7 +2,7 @@
 
 Official Pytorch implementation of DKUX-Net, from the following paper:
 
-[Semi-supervised Medical Image Segmentation via Query Distribution Consistency](https://arxiv.org/abs/2311.12364). \
+[Semi-supervised Medical Image Segmentation via Query Distribution Consistency](https://ieeexplore.ieee.org/document/10635325). \
 Rong Wu, Dehua Li, and Cong Zhang\
 DecisionLinnc Dev Group \
 [[`Paper`](https://ieeexplore.ieee.org/abstract/document/10635325?casa_token=PQCMMke7qCcAAAAA:VnP2ZHQozeggSae1_ebG2aiZnTVzUBcBuiyHv6k_6u_KkQa_-KhbY-zXgPn64gTcz_DEyqWEM6Z7)] [Poster, ISBI 2024]
